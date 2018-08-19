@@ -14,7 +14,7 @@ body {
     width: 100%;
 }
 h1 {
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 100;
     color: #2B9DFF;
 }
@@ -85,7 +85,7 @@ header {
     background-image: url(images/background_header.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom right;
+    /* background-position: bottom right; */
 }
 header h1 {
     width: 40%;
@@ -173,6 +173,82 @@ footer p, .footerPages {
     margin-left: 30px;
 }
 
+/* Responsive */
+@media only screen and (max-width: 1000px) {
+    body {
+        /* background-color: red; */
+    }
+    header {
+        height: 1600px;
+        min-height: 1600px;
+        background-image: url(images/mobile_background_header.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom right; 
+    }
+    header h1 {
+        width: 100%;
+    }
+    
+    .team {
+        margin: 3em 0 3em 0;
+        background-image: url(images/mobile_background_team.png);
+        background-position: top;
+    }
+    .team h1 {
+        width: 100%;
+    }
+    .about {
+        padding: 0 5%;
+        background-image: url(images/mobile_background_about.png);
+        background-size: contain;
+        height: 900px;
+        min-height: 900px;
+        overflow-y: visible;
+    }
+    .about h1 {
+        padding-top: 900px;
+    }
+    .about h1, .icons {
+        margin-left: 0;
+    }
+    .callToAction {
+        margin-top: 25em;
+        padding: 15em 5% 15em 5%;
+        background-size: 70%;
+    }
+    .callToAction h1, .callToAction a{
+        margin-bottom: 30px;
+    }
+    footer {
+        text-align: center;
+    }
+    .footerPages {
+        visibility: hidden;
+    }
+    footer p, .footerPages {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        height: 1300px;
+        min-height: 1300px;
+    }
+    header h1 {
+        margin: 1em 0 0 0;
+    }
+    .about h1 {
+        padding-top: 800px;
+    }
+    .members {
+        flex-direction: column;
+    }
+    .person {
+        margin-top: 30px;
+    }
+}
 
 
 
