@@ -138,6 +138,60 @@ header h1 {
     margin-left: 50%;
 }
 
+/* Call to Action */
+.callToAction {
+    text-align: center;
+    padding: 20em 5% 20em 5%;
+    background-image: url(images/background_calltoaction.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}    
+
+.callToAction h1, .callToAction a {
+    display: inline-block;
+    margin: 0 60px;
+    vertical-align: middle;
+}
+
+/* Footer */
+footer {
+    padding: 0 5%;
+    margin-bottom: 40px;
+    color: #2B9DFF;
+}
+footer p, .footerPages {
+    display: inline-block;
+}
+.footerPages {
+    float: right;
+}
+.footerPages a {
+    text-decoration: none;
+    font-weight: 100;
+    color: #2B9DFF;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Fonts */
 @font-face {
 font-family: 'Circular Std Book';
