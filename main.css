@@ -117,6 +117,27 @@ header h1 {
     margin-bottom: 5px;
 }
 
+/* About */
+.about {
+    padding: 0 5%;
+    background-image: url(images/background_about.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 80%;
+    height: 900px;
+    min-height: 900px;
+}
+.about h1 {
+    margin-bottom: 30px;
+    padding-top: 300px;
+}
+.icons img {
+    margin-right: 30px;
+}
+.about h1, .icons {
+    margin-left: 50%;
+}
+
 /* Fonts */
 @font-face {
 font-family: 'Circular Std Book';
